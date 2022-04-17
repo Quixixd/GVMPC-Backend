@@ -32,7 +32,7 @@ namespace Crimelife
             foreach (EquippointModel equippointModel in equipList)
             {
                 ColShape cb = NAPI.ColShape.CreateCylinderColShape(equippointModel.Position, 7.4f, 2.4f, 0);
-                cb.SetData("FUNCTION_MODEL", new FunctionModel("useEquippoint"));
+                cb.SetData("FUNCTION_MODEL", new FunctionModel("dubisteinhsundichequipmichjetzt"));
                 cb.SetData("MESSAGE", new Message("Benutze E um dich auszurüsten.", "Equippoint", "blue", 3000));
 
                // NAPI.Marker.CreateMarker(1, equippointModel.position, new Vector3(), new Vector3(), 7.0f, new Color(255, 140, 0), false, 0);
@@ -44,8 +44,8 @@ namespace Crimelife
             return true;
         }
 
-        [RemoteEvent("useEquippoint")]
-        public static void equipPlayer(Player c)
+        [RemoteEvent("dubisteinhsundichequipmichjetzt")]
+        public static void dubisteinhsundichequipmichjetzt(Player c)
         {
             try
             {
