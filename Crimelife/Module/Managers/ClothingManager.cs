@@ -21,8 +21,8 @@ namespace Crimelife
             c.Dimension = 0;
         }
 
-        [RemoteEvent("UpdateCharacterCustomization")]
-        public static void UpdateCharacterCustomization(Player client, string json, int price)
+        [RemoteEvent("deinemutterträgtdoppelkinn")]
+        public static void deinemutterträgtdoppelkinn(Player client, string json, int price)
         {
             DbPlayer player = client.GetPlayer();
             if ((player == null || !player.IsValid(true) ? false : player.Client != null))
