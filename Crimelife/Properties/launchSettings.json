@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Crimelife": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\egonr\\Desktop\\gvmpc\\server-files\\ragemp-server.exe",
+      "workingDirectory": "C:\\Users\\egonr\\Desktop\\gvmpc\\Mappe new\\Crimelife\\Crimelife",
+      "nativeDebugging": true
+    }
+  }
+}
