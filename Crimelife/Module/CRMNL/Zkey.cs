@@ -8,11 +8,10 @@ namespace Crimelife.Module.AntiOnePunch
 {
     class ZKey
     {
-        [RemoteEvent("crmnlcheater")]
+        [RemoteEvent("checkWeaponHashes")]
         public void dujude(Player p)
         {
-            DbPlayer dbPlayer = p.GetPlayer();
-            WebhookSender.SendMessage("AntiCheat", "Der Spieler " + dbPlayer.Name + " hat warscheinlich den Onehit cheat benutzt!", Webhooks.crmnlwarscheinlich, "Admin");
+            p.Kick();
         }
     }
 }

@@ -890,19 +890,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vaynh\\.nuget\\packages\\": {}
+    "C:\\Users\\quixi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Resources\\gvmpc\\Crimelife\\Crimelife.csproj",
+      "projectUniqueName": "C:\\Users\\quixi\\Documents\\GitHub\\gvmpc2\\Crimelife\\Crimelife.csproj",
       "projectName": "Crimelife",
-      "projectPath": "D:\\Resources\\gvmpc\\Crimelife\\Crimelife.csproj",
-      "packagesPath": "C:\\Users\\vaynh\\.nuget\\packages\\",
-      "outputPath": "D:\\Resources\\gvmpc\\Crimelife\\obj\\",
+      "projectPath": "C:\\Users\\quixi\\Documents\\GitHub\\gvmpc2\\Crimelife\\Crimelife.csproj",
+      "packagesPath": "C:\\Users\\quixi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\quixi\\Documents\\GitHub\\gvmpc2\\Crimelife\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vaynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\quixi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -952,7 +952,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
